@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fammss</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+<body>
+    <!--navbar section-->
+    <section>
+      <header>
+        <nav class="navbar">
+          <div class="navbar-left">
+            <a href="#" class="logo">
+              <img src="logo.png" alt="logo" />
+            </a>
+          </div>
+    
+          <!-- Hamburger Menüsü -->
+          <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+    
+          <ul class="navbar-right" id="navbar-menu">
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+              <a href="#">Pages</a>
+              <ul class="dropdown-menu">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Testimonial</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li>
+              <a href="#" aria-label="Shopping Cart">
+                <img src="https://img.icons8.com/material-outlined/24/000000/shopping-cart--v1.png" alt="Cart Icon" />
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="Search">
+                <img src="https://img.icons8.com/material-outlined/24/000000/search--v1.png" alt="Search Icon" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </section>
+    
+    <!-- <section>
+        <header>
+            <nav class="navbar">
+              <div class="navbar-left">
+                <a href="#" class="logo"></a>
+                <img src="logo.png" alt="logo">
+              </div>
+              <ul class="navbar-right">
+                <li><a href="#">Home</a></li>
+                <li class="dropdown">
+                  <a href="#">Pages</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Testimonial</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li>
+                  <a href="#" aria-label="Shopping Cart">
+                    <img src="https://img.icons8.com/material-outlined/24/000000/shopping-cart--v1.png" alt="Cart Icon" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#" aria-label="Search">
+                    <img src="https://img.icons8.com/material-outlined/24/000000/search--v1.png" alt="Search Icon" />
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </header>
+    </section> -->
+      
+    <!--hero-section-->
+      <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="image-container">
+              <img src="fammss.jpg" class="d-block w-100" alt="Hero 1">
+              <div class="texthero-container">
+                <h1>Sale 20% Off</h1>
+                <h3>On Everything</h3>
+                <p>
+                  Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                </p>
+                <button class="btn fs-5 fw-bolder">Shop Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image-container">
+              <img src="fammss.jpg" class="d-block w-100" alt="Hero 2">
+              <div class="texthero-container">
+                <h1>Sale 15% Off</h1>
+                <h3>For New Users</h3>
+                <p>
+                  Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                </p>
+                <button class="btn fs-5 fw-bolder">Shop Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image-container">
+              <img src="fammss.jpg" class="d-block w-100" alt="Hero 2">
+              <div class="texthero-container">
+                <h1>Sale 15% Off</h1>
+                <h3>For New Users</h3>
+                <p>
+                  Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                </p>
+                <button class="btn fs-5 fw-bolder">Shop Now</button>
+              </div>
+            </div>
+          </div>
+        <div class="carousel-indicators custom-indicators">
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+        </div>
+      </div>
+      
+      <!--why shop with us section-->
+      <section class="shop-section">
+        <div class="shop-content">
+          <div class="h1-container">
+            <h1 class="text-center mt-5">
+              Why Sh<span class="highlight-word">op</span> With Us
+            </h1>
+          </div>
+      
+          <div class="cards-container">
+            <div class="card">
+              <i class="fas fa-shipping-fast icon text-white fs-1 mb-3"></i>
+              <h3 class="text-white mb-3">Fast Delivery</h3>
+              <p class="text-white fs-5">variations of passages of Lorem Ipsum available</p>
+            </div>
+            <div class="card">
+              <i class="fas fa-tags icon text-white fs-1 mb-3"></i>
+              <h3 class="text-white mb-3">Free Shiping</h3>
+              <p class="text-white mb-3 fs-5">variations of passages of Lorem Ipsum available</p>
+            </div>
+            <div class="card">
+                <i class="bi bi-award-fill text-white fs-1 mb-3"></i>
+              <h3 class="text-white mb-3">24/7 Support</h3>
+              <p class="text-white fs-5">variations of passages of Lorem Ipsum available</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--hero2-section-->
+      <section class="hero2-section mt-5">
+        <div class="hero2-content">
+          <div class="image2-container">
+            <img src="arrival-bg.png" alt="hero Image" class="img-fluid">
+            <div class="texthero2-container">
+              <h2>#NewArrivals</h2>
+              <p class="text-black text-start">
+                Vitae fugiat laboriosam officia perferendis provident aliquid voluptatibus dolorem, fugit ullam sit earum id eaque nisi hic? Tenetur commodi, nisi rem vel, ea eaque ab ipsa, autem similique ex unde!
+              </p>
+              <button class="btn fs-5 fw-bolder" id="shop-now-btn">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--our products section-->
+      <section class="our-products-section mt-5">
+        <div class="our-container text-center">
+            <h1>Our <span class="highlight-word"> pro</span><span>ducts</span></h1>
+        </div>
+        <div class="products-container" id="products-container">
+        </div>
+        <div class="view-button mt-5">
+            <button class="btn fs-5 fw-bolder" id="view-all-products">View All products</button>
+        </div>
+      </section>
+
+      <!--Subscrıbe section-->
+      <section class="subs-section">
+        <div class="subs-container text-center">
+          <div class="box">
+            <div class="row">
+              <div class="col-md-6 offset-md-3">
+                <div class="subs_form">
+                  <div class="heading_container heading_center">
+                    <h2 class="mt-5 fs-1 fw-bolder">Subscribe To Get Discount Offers</h2>
+                  </div>
+                  <p class="mt-3 fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                  <form class="subscribe-form">
+                    <input type="email" placeholder="Enter Your Email" class="subscribe-input">
+                    <button id="subs-btn" class="subscribe-button mt-3">SUBSCRIBE</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!--comment section-->
+      <section id="comments-section" class="container mt-5">
+        <h1 class="text-center mb-4">Customer'<span class="highlight-word">s T</span>estimonial</h1>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner" id="comment-carousel"></div>
+          <!-- İleri Butonu -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <!-- Geri Butonu -->
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!--footer section-->
+      <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="logo-footer">
+                        <a href="#">
+                            <img src="logo.png" alt="#" width="210">
+                        </a>
+                    </div>
+                    <div class="information">
+                        <p class="mt-3">
+                            <strong>ADDRESS:</strong>
+                            <span class="fs-6">28 White tower, Street Name New York City, USA</span>
+                        </p>
+                        <p>
+                            <strong>TELEPHONE:</strong>
+                            <span>+91 987 654 3210</span>
+                        </p>
+                        <p>
+                            <strong>EMAIL:</strong>
+                            <span>fikriyeazimkar15@icloud.com</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="fw-bolder mb-3">Menu</h3>
+                    <a href="#">Home</a><br>
+                    <a href="#">About</a><br>
+                    <a href="#">Services</a><br>
+                    <a href="#">Testimonial</a><br>
+                    <a href="#">Blog</a><br>
+                    <a href="#">Contact</a><br>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="fw-bolder mb-3">Account</h3>
+                    <a href="#">Acoount</a><br>
+                    <a href="#">Cehckout</a><br>
+                    <a href="#">login</a><br>
+                    <a href="#">Register</a><br>
+                    <a href="#">Shopping</a><br>
+                    <a href="#">Widget</a><br>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="fw-bolder mb-3">Newsletter</h3>
+                    <p>Subscribe by our newsletter and get update protidin.</p>
+                    <form class="newsletter-form">
+                      <input type="email" class="newsletter-input" placeholder="Enter Your Email" required>
+                      <button type="submit" class="newsletter-button">Subscribe</button>
+                  </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="footer-bottom">
+      <div class="container text-center">
+        <p class="mb-0 fs-6">
+          © 2021 All Rights Reserved By <span id="son">Free Html Templates</span><br>
+          Distributed By <span id="son">ThemeWagon</span> 
+        </p>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Men's Shirt",
+        "gender": "men",
+        "price": "75",
+        "image_url": "https://themewagon.github.io/famms/images/p1.png"
+      },
+      {
+        "id": 2,
+        "name": "Men's Shirt",
+        "gender": "men",
+        "price": "80",
+        "image_url": "https://themewagon.github.io/famms/images/p2.png"
+      },
+      {
+        "id": 3,
+        "name": "Women's Dress",
+        "gender": "women",
+        "price": "68",
+        "image_url": "https://themewagon.github.io/famms/images/p3.png"
+      },
+      {
+        "id": 4,
+        "name": "Women's Dress",
+        "gender": "women",
+        "price": "70",
+        "image_url": "https://themewagon.github.io/famms/images/p4.png"
+      },
+      {
+        "id": 5,
+        "name": "Women's Dress",
+        "gender": "women",
+        "price": "75",
+        "image_url": "https://themewagon.github.io/famms/images/p5.png"
+      },
+      {
+        "id": 6,
+        "name": "Women's Dress",
+        "gender": "women",
+        "price": "58",
+        "image_url": "https://themewagon.github.io/famms/images/p6.png"
+      },
+      {
+        "id": 7,
+        "name": "Women's Dress",
+        "gender": "women",
+        "price": "80",
+        "image_url": "https://themewagon.github.io/famms/images/p7.png"
+      },
+      {
+        "id": 8,
+        "name": "Men's Shirt",
+        "gender": "men",
+        "price": "65",
+        "image_url": "https://themewagon.github.io/famms/images/p8.png"
+      },
+      {
+        "id": 9,
+        "name": "Men's Shirt",
+        "gender": "men",
+        "price": "65",
+        "image_url": "https://themewagon.github.io/famms/images/p9.png"
+      },
+      {
+        "id": 10,
+        "name": "Men's Shirt",
+        "gender": "men",
+        "price": "65",
+        "image_url": "https://themewagon.github.io/famms/images/p10.png"
+      },
+      {
+        "id": 11,
+        "name": "Men's Shirt",
+        "gender": "men",
+        "price": "65",
+        "image_url": "https://themewagon.github.io/famms/images/p11.png"
+      },
+      {
+        "id": 12,
+        "name": "Women's Dress",
+        "gender": "women",
+        "price": "65",
+        "image_url": "https://themewagon.github.io/famms/images/p12.png"
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "name": "Leslie Welch",
+        "email": "leslie.welch@example.com",
+        "comment": "I am very pleased, comfortable and silky",
+        "image_url": "https://randomuser.me/api/portraits/women/89.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Kim Bennett",
+        "email": "kim.bennett@example.com",
+        "comment": "This jacket is a true classic! It’s both stylish and perfect for casual outfits.",
+        "image_url": "https://randomuser.me/api/portraits/women/50.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Ben May",
+        "email": "ben.may@example.com",
+        "comment": "That oversized sweatshirt looks so comfy, ideal for a weekend look!",
+        "image_url": "https://randomuser.me/api/portraits/men/40.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Sean Scott",
+        "email": "sean.scott@example.com",
+        "comment": "The cut of these jeans is amazing! It makes your legs look longer.",
+        "image_url": "https://randomuser.me/api/portraits/men/82.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Carlos White",
+        "email": "carlos.white@example.com",
+        "comment": "The color of this dress is so vibrant, it gives off real spring vibes!",
+        "image_url": "https://randomuser.me/api/portraits/men/20.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Misty Taylor",
+        "email": "misty.taylor@example.com",
+        "comment": "Those shoes are really stylish! They add a nice touch to your outfit.",
+        "image_url": "https://randomuser.me/api/portraits/women/91.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Hunter Reynolds",
+        "email": "hunter.reynolds@example.com",
+        "comment": "A leather jacket is a timeless piece, instantly making any outfit look cool.",
+        "image_url": "https://randomuser.me/api/portraits/men/12.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Dawn Peck",
+        "email": "dawn.peck@example.com",
+        "comment": "The shirt and t-shirt combo creates a look that’s both comfortable and stylish.",
+        "image_url": "https://randomuser.me/api/portraits/men/23.jpg"
+      }
+    ]
+  }
